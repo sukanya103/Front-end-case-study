@@ -1,0 +1,61 @@
+/* Updated CSS for home-page */
+/* Updated background color and circular images */
+
+.home-page {
+  text-align: center;
+  padding: 50px 20px; /* Increased padding for better spacing */
+  background-color: #e9ec8c; /* Light blue background color */
+}
+
+.greeting {
+  font-size: 24px;
+  margin-bottom: 30px; /* Increased margin bottom for better spacing */
+  color: #1d1616; /* Darker text color */
+}
+
+.profile-card {
+  border: 2px solid #6c5ce7; /* Purple border for profile cards */
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 40px; /* Increased margin bottom for better spacing */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(160, 239, 123, 0.1);
+}
+
+.profile-photo img {
+  width: 200px; /* Increased image width for better visibility */
+  height: 200px; /* Set fixed height for circular images */
+  object-fit: cover;
+  border-radius: 50%; /* Display images in circular form */
+  margin: 20px auto; /* Center images and provide margin */
+}
+
+.profile-details {
+  padding: 20px;
+  text-align: left; /* Align profile details to the left */
+}
+
+.profile-details h4 {
+  margin-top: 0; /* Remove default margin for consistency */
+  margin-bottom: 15px; /* Adjusted margin bottom for spacing */
+}
+
+.profile-details p {
+  margin-bottom: 20px; /* Adjusted margin bottom for spacing */
+}
+
+.btn {
+  background-color: #61e49e; /* Coral background color for buttons */
+  color: #fff;
+  border: none;
+  border-radius: 25px; /* Increased border radius for rounded buttons */
+  padding: 15px 30px; /* Increased padding for better button appearance */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: bold; /* Bold text */
+}
+
+.btn:hover {
+  background-color: #83e969; /* Darker coral on hover */
+}

@@ -1,0 +1,142 @@
+/* DashboardPage.css */
+
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f8ff; /* Light blue background color */
+}
+
+.admin-login {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #f9f9f9; /* Light gray background color for login section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Set width for the login section */
+}
+
+.admin-login label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.admin-login input[type="password"] {
+  width: calc(100% - 20px); /* Adjusted width with proper spacing */
+  padding: 10px;
+  margin-bottom: 20px; /* Increased margin bottom for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.admin-login input[type="password"]:focus {
+  border-color: #6c5ce7; /* Purple border color on focus */
+}
+
+.admin-login button {
+  background-color: #6c5ce7; /* Purple background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px; /* Increased padding for better button appearance */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-login button:hover {
+  background-color: #4834d4; /* Darker purple on hover */
+}
+
+.dashboard {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px; /* Set maximum width for dashboard content */
+  background-color: #fff; /* White background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-form {
+  width: 100%;
+  max-width: 600px; /* Set maximum width for profile form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9; /* Light gray background color for profile form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-form label,
+.profile-form input {
+  display: block;
+  width: calc(100% - 20px); /* Adjusted width with proper spacing */
+  margin-bottom: 20px;
+}
+
+.profile-form input:focus {
+  border-color: #6c5ce7; /* Purple border color on focus */
+}
+
+.profile-form button {
+  background-color: #6c5ce7; /* Purple background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px; /* Increased padding for better button appearance */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-form button:hover {
+  background-color: #4834d4; /* Darker purple on hover */
+}
+
+.profile-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+  gap: 20px;
+}
+
+.profile-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9; /* Light gray background color for profile cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h4 {
+  margin-bottom: 10px;
+}
+
+.profile-card p {
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  border: 2px solid #6c5ce7;
+  border-radius: 10px; /* Adjust border radius as needed */
+  overflow: hidden;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px; /* Adjust padding as needed */
+  width: 200px; /* Set the width of the profile card */
+}
+
+.profile-card img {
+  width: 100%; /* Ensure the image takes up the full width of its container */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+  border-radius: 10px; /* Match border radius with the profile card */
+}
+
+
+.profile-card button:hover {
+  background-color: #443796; /* Darker purple on hover */
+}

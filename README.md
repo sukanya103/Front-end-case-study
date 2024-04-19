@@ -1,2 +1,2 @@
-# Front-end-case-study
- Admin Password :- Sukanya@123
+# Front end case study 
+ For Bynary Services Pvt LT

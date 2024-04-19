@@ -1,0 +1,47 @@
+/* Updated CSS for Navbar */
+nav {
+  display: flex;
+  justify-content: space-between; /* Adjust alignment */
+  align-items: center; /* Center items vertically */
+  background-color: #5a6c59; /* Red background color */
+  padding: 10px 20px;
+  font-family: 'Arial', sans-serif; /* Change font style */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth effect */
+}
+
+.logo {
+  font-size: 24px; /* Increase font size for logo */
+  color: #fff; /* White text color */
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+li {
+  margin-right: 20px;
+}
+
+/* Target anchor (<a>) elements within the nav */
+nav a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-weight: bold; /* Make text bold */
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Style anchor on hover */
+nav a:hover {
+  background-color: #d84315; /* Darker red background color on hover */
+}
+
+/* Style for icons */
+.icon {
+  font-size: 20px; /* Adjust size of icons */
+  margin-right: 5px; /* Add margin between icon and text */
+  color: #fff; /* White color */
+}

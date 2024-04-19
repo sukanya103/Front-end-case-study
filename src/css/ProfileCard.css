@@ -1,0 +1,25 @@
+.profile-card-horizontal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.profile-photo-horizontal {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border-radius: 50%; /* Ensures circular shape */
+  margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.profile-details-horizontal {
+  flex: 1;
+}
+
+/* Additional styling for the container */
+.profile-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust alignment as needed */
+}
+
+/* Add additional styling as needed */

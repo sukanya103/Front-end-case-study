@@ -1,0 +1,11 @@
+/* ProfilePage.css */
+.profile-page {
+    text-align: center; /* Center align the content */
+  }
+  
+  .profile-page h2 {
+    margin-bottom: 20px; /* Add some spacing below the heading */
+    font-size: 24px; /* Adjust the font size if needed */
+    color: #333; /* Set the color of the heading */
+  }
+  
